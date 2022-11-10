@@ -34,7 +34,7 @@ def dataReader():
     # loop over the list of csv files
     for f in csv_files:
       # read the csv file
-      data = pd.read_csv(f, on_bad_lines="skip")
+      data = pd.read_csv(f)
       
     return data 
       
