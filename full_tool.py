@@ -25,7 +25,7 @@ def dataReader():
         data with missing values.
 
     """
-    path = os.getcwd() + "\\data"
+    path = os.getcwd() + "/data"
     csv_files = glob.glob(os.path.join(path, "*.csv"))
     
     
